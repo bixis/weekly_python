@@ -38,5 +38,6 @@ def delete_account(username):
     return "User not found."
 
 
+# Obviously more testing would be needed, I'm trying to keep it simple. 
 print(register_user("user1", "password123"))
 print(login_user("user1", "password123"))
